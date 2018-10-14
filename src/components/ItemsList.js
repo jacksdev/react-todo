@@ -4,7 +4,7 @@ import Item from './Item';
 const ItemsList = (props) => (
   <div>
     <div className="widget-header">
-      <h3 className="widget-header__title">Your options</h3>
+      <h3 className="widget-header__title">Your items</h3>
       <button
         className="button--link"
         onClick={props.handleClearList}
